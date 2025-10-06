@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Logo from '../../public/images/logo.png';
 
 export default function Header() {
@@ -13,21 +14,21 @@ export default function Header() {
 
         {/* Navigation Links */}
         <div className="hidden md:flex items-center space-x-12 ml-[20%]">
-          <a href="/" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+          <Link href="/" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             Home
-          </a>
-          <a href="about" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+          </Link>
+          <Link href="/about" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             About
-          </a>
-          <a href="services" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+          </Link>
+          <Link href="/services" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             Services
-          </a>
-          <a href="memberships" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+          </Link>
+          <Link href="/memberships" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             Memberships
-          </a>
-          <a href="contact" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
+          </Link>
+          <Link href="/contact" className="text-white hover:text-gray-300 transition-colors text-sm font-medium">
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Mobile Menu Button */}

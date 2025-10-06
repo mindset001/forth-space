@@ -13,7 +13,7 @@ export default function ExcellenceQuoteSection() {
       <div className="relative z-10 max-w-4xl mx-auto text-center">
         <blockquote className="mb-8">
           <p className="text-3xl md:text-4xl lg:text-5xl font-light text-white leading-tight mb-8">
-            "Where excellence is not an aspiration, but a standard"
+            &ldquo;Where excellence is not an aspiration, but a standard&rdquo;
           </p>
         </blockquote>
         

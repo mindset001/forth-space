@@ -40,10 +40,10 @@ export default function MembershipTestimonials() {
                 ))}
               </div>
               <p className="text-gray-700 italic">
-                "Moving my startup to 4orth SPACE was one of the best business decisions I&apos;ve made. 
+                &ldquo;Moving my startup to 4orth SPACE was one of the best business decisions I&apos;ve made. 
                 The environment fosters creativity, the amenities are top-notch, and the networking 
                 opportunities have led to valuable partnerships. It&apos;s more than just an office space; 
-                it&apos;s a catalyst for growth."
+                it&apos;s a catalyst for growth.&rdquo;
               </p>
             </div>
             <div className="mt-auto">
@@ -77,10 +77,10 @@ export default function MembershipTestimonials() {
                 ))}
               </div>
               <p className="text-gray-700 italic">
-                "The hot desk membership at 4orth SPACE gives me the flexibility I need as a consultant 
+                &ldquo;The hot desk membership at 4orth SPACE gives me the flexibility I need as a consultant 
                 while providing a professional environment that impresses my clients. The community here 
                 is supportive and diverse, and I&apos;ve found many collaborative opportunities that have 
-                expanded my business."
+                expanded my business.&rdquo;
               </p>
             </div>
             <div className="mt-auto">
@@ -114,10 +114,10 @@ export default function MembershipTestimonials() {
                 ))}
               </div>
               <p className="text-gray-700 italic">
-                "As a creative professional, my environment deeply influences my work. 4orth SPACE&apos;s 
+                &ldquo;As a creative professional, my environment deeply influences my work. 4orth SPACE&apos;s 
                 beautiful design, attention to detail, and calm atmosphere have significantly boosted 
                 my creativity and productivity. The staff are incredibly supportive and responsive to 
-                all my needs."
+                all my needs.&rdquo;
               </p>
             </div>
             <div className="mt-auto">
@@ -151,9 +151,9 @@ export default function MembershipTestimonials() {
                 ))}
               </div>
               <p className="text-gray-700 italic">
-                "The privacy of a dedicated desk combined with the community aspects of 4orth SPACE 
+                &ldquo;The privacy of a dedicated desk combined with the community aspects of 4orth SPACE 
                 gives me the perfect balance. The location is convenient, the facilities are immaculate, 
-                and the networking events have connected me with valuable clients and collaborators."
+                and the networking events have connected me with valuable clients and collaborators.&rdquo;
               </p>
             </div>
             <div className="mt-auto">
