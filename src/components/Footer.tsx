@@ -14,7 +14,7 @@ export default function Footer() {
               <Image src={Logo} alt="4orth Space Logo" className="w-24" />
             </div>
             <p className="text-gray-300 text-sm leading-relaxed max-w-md">
-              Nigeria's premier destination for sophisticated professionals. A refined 
+              Nigeria&apos;s premier destination for sophisticated professionals. A refined 
               coworking and creative hub where innovation meets elegance, fostering 
               collaboration among creatives, entrepreneurs, and visionaries.
             </p>

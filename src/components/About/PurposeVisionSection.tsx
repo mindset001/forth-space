@@ -31,7 +31,7 @@ export default function PurposeVisionSection() {
               </h3>
               <p className=" text-[#5E5836] leading-relaxed text-[16px] px-2 md:px-8">
                 To redefine the workspace experience by creating environments 
-                that foster excellence and empower Nigeria's most ambitious minds 
+                that foster excellence and empower Nigeria&apos;s most ambitious minds 
                 to achieve extraordinary outcomes.
               </p>
             </div>
@@ -45,7 +45,7 @@ export default function PurposeVisionSection() {
                 Our Vision
               </h3>
               <p className=" text-[#5E5836] leading-relaxed">
-                To be recognized globally as Africa's premier destination for 
+                To be recognized globally as Africa&apos;s premier destination for 
                 sophisticated professionals and collaborative enterprises seeking 
                 the perfect fusion of luxury and productivity.
               </p>
@@ -62,7 +62,7 @@ export default function PurposeVisionSection() {
           </h2>
           <p className="text-[#5E5836] text-lg mb-12 max-w-2xl mx-auto">
             These unwavering principles guide every decision we make and 
-            define the character of the community we've built.
+            define the character of the community we&apos;ve built.
           </p>
 
           {/* Principles Grid */}

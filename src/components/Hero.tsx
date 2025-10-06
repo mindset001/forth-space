@@ -22,7 +22,7 @@ export default function Hero() {
         </h1>
         
         <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto mb-8 leading-relaxed">
-          Nigeria's most distinguished creative and professional sanctuary. A 
+          Nigeria&apos;s most distinguished creative and professional sanctuary. A 
           refined environment where exceptional minds converge, collaborate, and 
           create legacy.
         </p>

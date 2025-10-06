@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "4orth SPACE | Premium Coworking Space in Lagos",
-  description: "Nigeria's premier destination for sophisticated professionals. A refined coworking and creative hub where innovation meets elegance.",
+  description: "Nigeria&apos;s premier destination for sophisticated professionals. A refined coworking and creative hub where innovation meets elegance.",
 };
 
 export default function RootLayout({

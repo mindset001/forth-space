@@ -38,7 +38,7 @@ export default function TestimonialSection() {
 
             <blockquote className="">
               <p className="text-black font-[400] text-[16px] leading-relaxed mb-6">
-                "4orth Space has redefined my understanding of what a workspace can be. The attention to detail, the caliber of fellow members, and the seamless service create an environment where excellence isn't just expected—it's inevitable."
+                "4orth Space has redefined my understanding of what a workspace can be. The attention to detail, the caliber of fellow members, and the seamless service create an environment where excellence isn&apos;t just expected—it&apos;s inevitable."
               </p>
             </blockquote>
            </div>

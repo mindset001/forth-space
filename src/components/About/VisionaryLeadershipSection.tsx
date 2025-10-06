@@ -36,7 +36,7 @@ export default function VisionaryLeadershipSection() {
             Visionary Leadership
           </h2>
           <p className="text-[#5E5836] text-lg max-w-2xl mx-auto leading-relaxed">
-            Meet the distinguished minds behind 4orth Space's revolutionary 
+            Meet the distinguished minds behind 4orth Space&apos;s revolutionary 
             approach to workspace excellence and community curation.
           </p>
         </div>

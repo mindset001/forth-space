@@ -16,7 +16,7 @@ export default function AboutHero() {
         </h1>
         
         <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-          Born from a vision to elevate Nigeria's creative and entrepreneurial 
+          Born from a vision to elevate Nigeria&apos;s creative and entrepreneurial 
           ecosystem to unprecedented heights of excellence and global 
           recognition.
         </p>

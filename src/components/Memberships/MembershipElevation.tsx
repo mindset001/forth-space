@@ -29,7 +29,7 @@ export default function MembershipElevation() {
               <div>
                 <h3 className="text-lg font-medium text-gray-900 mb-2">Distinguished Network</h3>
                 <p className="text-[#5E5836]">
-                  Connect with Nigeria's most influential leaders, entrepreneurs, and 
+                  Connect with Nigeria&apos;s most influential leaders, entrepreneurs, and 
                   visionaries in an environment of mutual respect and collaboration
                 </p>
               </div>

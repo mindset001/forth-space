@@ -17,7 +17,7 @@ export default function ContactHero() {
         
         <p className="text-white/90 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
           We invite distinguished entrepreneurs and exceptional conversions 
-          with Nigeria's most discerning professionals.
+          with Nigeria&apos;s most discerning professionals.
         </p>
       </div>
     </section>

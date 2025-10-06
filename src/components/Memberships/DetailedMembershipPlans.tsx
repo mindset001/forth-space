@@ -76,7 +76,7 @@ export default function DetailedMembershipPlans() {
                   <svg className="w-4 h-4 text-[#5E5836] mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                   </svg>
-                  <span className="text-sm">Access to Members' Lounge</span>
+                  <span className="text-sm">Access to Members&apos; Lounge</span>
                 </li>
                 <li className="flex items-start">
                   <svg className="w-4 h-4 text-[#5E5836] mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">

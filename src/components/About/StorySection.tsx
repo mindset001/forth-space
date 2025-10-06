@@ -17,7 +17,7 @@ export default function StorySection() {
             
             <div className="space-y-6 text-[#5E5836] leading-relaxed">
               <p>
-                Founded in 2022 by visionaries who understood that Nigeria's extraordinary 
+                Founded in 2022 by visionaries who understood that Nigeria&apos;s extraordinary 
                 talent deserved extraordinary environments, 4orth Space was conceived not 
                 merely as a workspace, but as a sanctuary for the ambitious, the creative, 
                 and the transformative.
@@ -27,11 +27,11 @@ export default function StorySection() {
                 Our founders, seasoned entrepreneurs who had navigated the complexities 
                 of building world-class enterprises, recognized a profound absence of truly 
                 sophisticated, purpose-built environments that could match the caliber of 
-                Nigeria's most exceptional minds.
+                Nigeria&apos;s most exceptional minds.
               </p>
               
               <p>
-                Today, we stand as Nigeria's premier destination for those who refuse to 
+                Today, we stand as Nigeria&apos;s premier destination for those who refuse to 
                 compromise on excellence. Our carefully curated community of 500+ 
                 distinguished members spans the spectrum of industry leadership, from 
                 pioneering tech innovators to renowned creative visionaries.

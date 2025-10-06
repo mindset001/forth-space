@@ -38,12 +38,12 @@ const FaqItem = ({ question, answer }: FaqItemProps) => {
 export default function MembershipFAQ() {
   const faqs = [
     {
-      question: "What's included in each membership plan?",
+      question: "What&apos;s included in each membership plan?",
       answer: "Each membership plan includes different amenities based on your needs. All plans include high-speed internet, access to common areas, complimentary refreshments, and printing services. Higher tier plans include additional benefits like private office space, dedicated desks, meeting room credits, mail handling, and access to premium events."
     },
     {
       question: "Can I upgrade or downgrade my membership?",
-      answer: "Yes, you can upgrade or downgrade your membership with 30 days' notice. We understand that your business needs may change, and we're flexible in accommodating those changes. Please speak with our membership coordinator to arrange any adjustments to your plan."
+      answer: "Yes, you can upgrade or downgrade your membership with 30 days&apos; notice. We understand that your business needs may change, and we&apos;re flexible in accommodating those changes. Please speak with our membership coordinator to arrange any adjustments to your plan."
     },
     {
       question: "Is there a minimum commitment period?",
@@ -92,7 +92,7 @@ export default function MembershipFAQ() {
         {/* Contact for more questions */}
         <div className="text-center mt-12 pt-8 border-t border-gray-200">
           <p className="text-gray-600 mb-4">
-            Still have questions? We're here to help.
+            Still have questions? We&apos;re here to help.
           </p>
           <a href="/contact" className="inline-block bg-black text-white px-8 py-3 text-sm hover:bg-gray-800 transition duration-300">
             Contact Us

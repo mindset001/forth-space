@@ -47,7 +47,7 @@ export default function ElevatingExcellenceSection() {
           </h2>
           <p className="text-[#5E5836] text-lg max-w-3xl mx-auto leading-relaxed">
             Each service is thoughtfully designed to meet the sophisticated needs of 
-            Nigeria's most discerning professionals and forward-thinking organizations.
+            Nigeria&apos;s most discerning professionals and forward-thinking organizations.
           </p>
         </div>
 

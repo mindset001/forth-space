@@ -11,7 +11,7 @@ export default function ForthSpaceDifferenceSection() {
         <Image src={Dist} alt="Distinguished Advisory" className="w-8 h-8" />
       ),
       title: "Distinguished Advisory",
-      description: "Access to Nigeria's most respected business leaders and international thought leaders who provide strategic guidance."
+      description: "Access to Nigeria&apos;s most respected business leaders and international thought leaders who provide strategic guidance."
     },
  
     {
