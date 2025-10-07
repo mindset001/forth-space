@@ -1,58 +1,65 @@
+import React from 'react';
+import Image from 'next/image';
+import One from '../../public/images/one.png';
+import Two from '../../public/images/two.png';
+import Three from '../../public/images/three.png';
+import Four from '../../public/images/four.png';
+
 export default function CuratedSpaces() {
   const spaces = [
     {
       id: 1,
       title: "Private Offices",
       description: "Fully furnished private offices designed for focused work and confidential meetings.",
-      image: "/images/private-office-1.jpg"
+      image: One
     },
     {
       id: 2,
-      title: "Private Offices",
-      description: "Premium office spaces with modern amenities and professional atmosphere.",
-      image: "/images/private-office-2.jpg"
+      title: "Meeting Rooms",
+      description: "Premium meeting spaces with modern amenities and professional atmosphere.",
+      image: Two
     },
     {
       id: 3,
-      title: "Private Offices",
+      title: "Executive Suites",
       description: "Sophisticated workspaces tailored for executive needs and client presentations.",
-      image: "/images/private-office-3.jpg"
+      image: Three
     },
     {
       id: 4,
-      title: "Private Offices",
+      title: "Collaborative Spaces",
       description: "Collaborative meeting spaces equipped with state-of-the-art technology.",
-      image: "/images/private-office-4.jpg"
+      image: Four
     },
     {
       id: 5,
-      title: "Private Offices",
+      title: "Creative Studios",
       description: "Creative environments designed to inspire innovation and productivity.",
-      image: "/images/private-office-5.jpg"
+      image: One
     },
     {
       id: 6,
-      title: "Private Offices",
+      title: "Premium Offices",
       description: "Elegant office solutions with panoramic city views and premium furnishing.",
-      image: "/images/private-office-6.jpg"
+      image: Two
     },
     {
       id: 7,
-      title: "Private Offices",
+      title: "Flexible Workspaces",
       description: "Modern workspaces with flexible layouts for dynamic business needs.",
-      image: "/images/private-office-7.jpg"
+      image: Three
     },
     {
       id: 8,
-      title: "Private Offices",
+      title: "Executive Suites",
       description: "Executive suites with dedicated support and premium service amenities.",
-      image: "/images/private-office-8.jpg"
+      image: Four
     },
     {
       id: 9,
-      title: "Private Offices",
+      title: "Professional Offices",
       description: "Professional environments designed for maximum productivity and comfort.",
-      image: "/images/private-office-9.jpg"
+      image: One
     }
   ];
 
@@ -62,32 +69,36 @@ export default function CuratedSpaces() {
         {/* Header */}
         <div className="text-center mb-16">
           <div className="w-16 h-px bg-gray-400 mx-auto mb-8"></div>
-          <h2 className="text-4xl md:text-5xl font-light text-gray-800 mb-6">
+          <h2 className="text-4xl md:text-5xl font-light text-[#5E5836] mb-6">
             Thoughtfully Curated Spaces
           </h2>
-          <p className="text-gray-600 text-lg max-w-2xl mx-auto leading-relaxed">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto md:w-[40%] leading-relaxed">
             Professional confidentiality and sophisticated 
             environments for sensitive work.
           </p>
         </div>
 
-        {/* Spaces Grid */}
+        {/* Spaces Grid - FIXED */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {spaces.map((space) => (
             <div 
               key={space.id} 
               className="group relative overflow-hidden rounded-lg aspect-[4/3] bg-gray-200 hover:transform hover:scale-105 transition-all duration-300 cursor-pointer"
             >
-              {/* Background Image */}
-              <div 
-                className="absolute inset-0 bg-cover bg-center"
-                style={{
-                  backgroundImage: `url('${space.image}')`
-                }}
-              >
-                {/* Overlay */}
-                <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-all duration-300"></div>
+              {/* FIX: Using Next.js Image component properly */}
+              <div className="absolute inset-0">
+                <Image
+                  src={space.image}
+                  alt={space.title}
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover"
+                  placeholder="blur"
+                />
               </div>
+
+              {/* Overlay */}
+              {/* <div className="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-50 transition-all duration-300"></div> */}
 
               {/* Content */}
               <div className="relative z-10 p-6 h-full flex flex-col justify-end">
@@ -104,9 +115,6 @@ export default function CuratedSpaces() {
             </div>
           ))}
         </div>
-
-        {/* Call to Action */}
-      
       </div>
     </section>
   );

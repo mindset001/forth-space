@@ -2,9 +2,11 @@
 
 This guide will help you set up the fonts for your 4orth SPACE project.
 
+> **Note:** The project is currently using Google Fonts (Montserrat and Lora) as temporary replacements until your custom fonts are available.
+
 ## Font Setup Overview
-- **Andalus Font**: Used for general text and headings
-- **Paragraph Font**: Used specifically for paragraph text (all `<p>` elements)
+- **Andalus Font**: Used for general text and headings (temporarily using Montserrat)
+- **Paragraph Font**: Used specifically for paragraph text (temporarily using Lora)
 
 ## Steps to Set Up Fonts
 
@@ -57,4 +59,16 @@ Once you've added the font file, you can verify it's working by:
 - Andalus font is applied globally
 - Paragraph font is specifically applied to all `<p>` elements
 
-If you encounter any issues, please ensure the font files are correctly named and placed in the `public/fonts/` directory.
+## Switching from Google Fonts to Local Fonts
+
+When you have your font files ready:
+
+1. Create a `fonts` directory inside `src/app` if it doesn't already exist
+2. Place your font files in this directory:
+   - `src/app/fonts/Andalus.woff2`
+   - `src/app/fonts/ParagraphFont.woff2`
+3. Update `src/app/fonts/fonts.ts` to use these local fonts:
+   - Uncomment the local font code at the bottom of the file
+   - Comment out or remove the Google Fonts code at the top
+
+If you encounter any issues, ensure the font files are correctly named and placed in the right directories.
