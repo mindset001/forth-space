@@ -9,7 +9,7 @@ export const andalus = localFont({
 
 // Setup paragraph font
 export const paragraphFont = localFont({
-  src: '../../../public/fonts/paragraphfont.woff2', // You'll need to replace this with your actual paragraph font file
+  src: '../../../public/fonts/paragraphFont.woff2', // You'll need to replace this with your actual paragraph font file
   variable: '--font-paragraph',
   display: 'swap',
 });
